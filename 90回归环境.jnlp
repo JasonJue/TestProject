@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>           
+<jnlp spec="1.6+" codebase="http://10.32.4.90:8080" href="index.jnlp">
+	<information>
+	   <title>智能综合前端应用系统</title>
+	   <description>IteractiveFrame</description>
+	   <vendor>神州数码融信软件有限公司</vendor>
+	   <!-- 自动在桌面生成快捷方式，图标为icon指向的图标，该快捷方式会自动更新。双击该快捷方式启动客户端。-->
+	   <icon href="/img/favicon_Teller.ico" kind="shortcut"/> 
+	   <shortcut online="false" >  
+	   	  <desktop/>   
+	   </shortcut>
+    </information>
+    <security><all-permissions /></security>
+	<resources>
+	   <property value="true" name="jnlp.packEnabled"/>
+	   <java version="1.6+"  initial-heap-size="256m" max-heap-size="512m" java-vm-args="-XX:+UseConcMarkSweepGC -XX:+UseParNewGC"/>
+	   <jar href="/InteractiveFrame_common.jar" main="true"/>
+	   <jar href="/InteractiveFrame_adapter.jar"/>
+	   <jar href="/InteractiveFrame_datacontainer.jar"/>
+	   <jar href="/InteractiveFrame_event.jar"/>
+	   <jar href="/InteractiveFrame_viewengine.jar"/>
+	   <jar href="/commons-codec-1.3.jar"/>
+	   <jar href="/commons-logging-1.1.1.jar"/>
+	   <jar href="/httpcore_4.1.3.jar"/>
+	   <jar href="/httpclient_4.1.2.jar"/>
+	   <jar href="/httpmime-4.2.jar"/>
+	   <jar href="/dom4j-1.6.1.jar"/>
+	   <jar href="/jaxen-1.1-beta-4.jar"/>
+	   <jar href="/commons-io-1.4.jar"/>
+	   <jar href="/EquipmentIntegrationFrame_Client.jar"/>
+	   <jar href="/jdic.jar"/>
+	   <jar href="/jacob.jar"/>
+	   <jar href="/QRCode.jar"/>
+	   <jar href="/resource.jar"/>
+	   <jar href="/resource_ext.jar"/>
+	   <jar href="/smack.jar"/>
+	   <jar href="/smackx.jar"/>
+	   <jar href="/JTwain.jar"/>
+	   <jar href="/ssologout.jar"/>
+	   <jar href="/swt.win32.x86_3.7.0.jar"/>
+	   <jar href="/pdf-renderer-1.0.5.jar"/>
+	   <jar href="/icepdf-core-6.2.1.jar"/>
+	   <jar href="/icepdf-viewer-6.2.1.jar"/>
+	   <jar href="/json.org.jar"/>
+	   <jar href="/poi-3.12.jar"/>
+	   <jar href="/poi-ooxml-3.12.jar"/>
+	   <jar href="/poi-ooxml-schemas-3.12.jar"/>
+	   <jar href="/jxl.jar"/>
+	   <jar href="/xmlbeans-2.6.0.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.device.ZhelinScanner.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.function.ClientFunctions.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.viewmodel.SceneLockWhenSunyardAuth.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.device.AppraiserCHJ800U.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.function.DevicePrintPlugin.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.device.CVR100UIDCard.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.device.GOLDTELGTICR100IDCard.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.device.NANTIANBP8903MagIC.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.device.NANTIANBP8910JSYH.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.device.Paypwd_SZM16_A.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.viewmodel.SceneGuideWindow.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.widget.PaperlessAssistOLEControlPanel.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.widget.PaperlessVoucherOLEControlPanel.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.widget.PDFControlExt.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.widget.PaperlessCaptureImageOLEControlPanel.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.widget.SunScanControlPanel.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.widget.SunCameraControlPanel.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.device.CENTERM_A10.jar"/>
+       <jar href="/com.dcfs.teller.client.plugin.device.NANTIAN_BP8910S006.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.device.GEIT_SMY006F.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.device.CENTERM_MK500C.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.widget.PDFViewer.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.viewmodel.InstantMessage.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.function.AuthViewRestoreFunction.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.widget.AuthViewRestoreCtrl.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.widget.ImageViewer.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.function.ReusableImage.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.device.SD001.jar"/>
+	   <jar href="/jna-4.4.0.jar"/>
+	   <jar href="/jna-platform-4.4.0.jar"/>
+	   <jar href="/VtmPanel.jar"/>
+	   <jar href="/pinyin4j-2.5.1.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.widget.SunAddinControlPanel.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.widget.SunOcxControlPanel.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.widget.ImageCollectorMark.jar"/>
+	   <jar href="/com.dcfs.teller.client.plugin.widget.CountIndicatorV3.jar"/>
+	   <jar href="/randelshofer.jar"/>
+	</resources>
+    <application-desc main-class="org.apache.pivot.wtk.DesktopApplicationContext">
+	    <argument>com.dcfs.teller.client.application.StartApplication</argument>
+	    <argument>--width=1024</argument>        <!-- 初始宽度 -->
+	    <argument>--height=730</argument>        <!-- 初始高度 -->
+	    <argument>--center=true</argument>       <!-- 是否居中显示 -->
+	    <argument>--single=false</argument>       <!-- 是否只能启动一个teller -->
+	    <argument>--start_sys=index</argument>   <!-- 初次启动时访问的流程 -->
+	    <argument>--fullScreen=true</argument>   <!-- 是否全屏显示 -->
+	    <argument>--resizable=true</argument>    <!-- 是否能调整大小 -->
+	    <argument>--alwaysontop=false</argument>       <!-- 窗口是否顶置 -->
+	    <argument>--hidden_title_bar=false</argument>  <!-- 是否隐藏窗口标题栏 -->
+	    <argument>--hidden_title_drag=true</argument>  <!-- 当窗口标题栏隐藏后，是否可拖动窗口 -->
+	    <argument>--title=智能综合前端应用系统</argument> <!-- clientmac=设置不带-的虚拟MAC地址，使两应用使用一条外设 -->
+    </application-desc>
+</jnlp>
